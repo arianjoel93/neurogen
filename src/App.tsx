@@ -2507,7 +2507,7 @@ function App() {
               <ShieldCheck size={24} />
             </span>
             <div>
-              <strong>GenLab Control</strong>
+              <strong>NeuroGen Control</strong>
               <span>Laboratorio de genética humana</span>
             </div>
           </div>
@@ -3627,7 +3627,7 @@ function ModuleLauncher({
             <ShieldCheck size={22} />
           </span>
           <div>
-            <strong>GenLab Control</strong>
+            <strong>NeuroGen Control</strong>
             <span>{currentUser.fullName}</span>
           </div>
         </div>
@@ -3733,7 +3733,7 @@ function ChartCard({
           <Icon size={20} />
           <button type="button" onClick={() => downloadSvgAsPng(svgId, title.toLocaleLowerCase("es-MX").replace(/\s+/g, "-"))}>
             <Download size={16} />
-            Acciónes
+            Acciones
           </button>
         </div>
       </div>
@@ -4402,7 +4402,7 @@ function InventoryProductForm({
           <textarea value={productForm.notes ?? ""} onChange={(event) => onFieldChange("notes", event.target.value)} />
         </label>
       </div>
-      {editing ? <p className="form-hint">El stock se modifica desde las acciónes Entrada, Salida o Ajuste.</p> : null}
+      {editing ? <p className="form-hint">El stock se modifica desde las Acciones Entrada, Salida o Ajuste.</p> : null}
       <div className="modal-actions">
         <button type="button" className="ghost-action" onClick={onCancel}>
           Cancelar
@@ -4482,7 +4482,7 @@ function InventoryProductTable({
             <th>Stock</th>
             <th>Ubicación</th>
             <th>Actualizado</th>
-            <th className="actions-column">Acciónes</th>
+            <th className="actions-column">Acciones</th>
           </tr>
         </thead>
         <tbody>
@@ -4626,7 +4626,7 @@ function PatientTable({
             <th>Vivienda</th>
             <th>Registro por</th>
             <th>Registro</th>
-            {hasActions ? <th className="actions-column">Acciónes</th> : null}
+            {hasActions ? <th className="actions-column">Acciones</th> : null}
           </tr>
         </thead>
         <tbody>

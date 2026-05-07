@@ -1,4 +1,4 @@
-# GenLab Control
+# NeuroGen Control
 
 Plataforma React + Supabase para un laboratorio de genética humana. Incluye login en la raíz, dashboard, pacientes, bitácora de registros, carga Excel/CSV, exportación Excel del dashboard, reportes PDF filtrados y creación de usuarios por superusuario.
 
@@ -22,7 +22,7 @@ joeltrincadov@gmail.com
 Contraseña recomendada:
 
 ```text
-GenLab-JT!2026-74Mx
+NeuroGen-JT!2026-74Mx
 ```
 
 En modo local de demostración esa cuenta ya existe. En producción debes crear ese usuario en Supabase Auth con la contraseña anterior o con una propia de igual fuerza. El esquema SQL promueve automáticamente ese correo a rol `superuser`.

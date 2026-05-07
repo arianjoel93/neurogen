@@ -1,7 +1,7 @@
 import type { ActivityLog, AppUser, InventoryMovement, InventoryProduct, Patient } from "../types";
 
 export const SUPERUSER_EMAIL = "joeltrincadov@gmail.com";
-export const RECOMMENDED_SUPERUSER_PASSWORD = "GenLab-JT!2026-74Mx";
+export const RECOMMENDED_SUPERUSER_PASSWORD = "NeuroGen-JT!2026-74Mx";
 
 const seededAt = "2026-05-05T15:00:00.000Z";
 
